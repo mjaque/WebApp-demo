@@ -18,6 +18,3 @@ class ControladorClientes{
         //Llamar al modelo para crear el cliente: this.#modelo.crearCliente(cliente)
     }
 }
-
-window.onload = () => { new ControladorPrincipal() }
-

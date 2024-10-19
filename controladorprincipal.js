@@ -20,6 +20,10 @@ class ControladorPrincipal{
         //Poner ocultos (style.display = 'none') todas las vistas
         //Mostrar (style.display = 'block') del div de clientes.
     }
+
+	getModelo(){
+		return this.modelo 
+	}
 }
 
 window.onload = () => { new ControladorPrincipal() }
